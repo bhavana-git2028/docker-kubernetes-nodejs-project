@@ -41,3 +41,23 @@ docker run -d --name node-app -p 3000:3000 docker-k8s-project:v1
 - Resized Linux filesystem using growpart and resize2fs
 - Recovered broken apt/dpkg package installation
 - Debugged Docker container networking and port conflicts
+
+## Screenshots
+
+### Docker Images
+![Docker Images](screenshots/docker-images.png)
+
+### Running Docker Container
+![Docker Container](screenshots/docker-container.png)
+
+### Kubernetes Deployment
+![Kubernetes Deployment](screenshots/k8s-deployment.png)
+
+### Kubernetes Pods
+![Kubernetes Pods](screenshots/k8s-pods.png)
+
+### Kubernetes Service
+![Kubernetes Service](screenshots/k8s-service.png)
+
+### Application Output
+![Application Output](screenshots/application-output.png)
